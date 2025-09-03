@@ -1,0 +1,50 @@
+/* Fondo general */
+.cuerpo {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 44, 241));
+    min-height: 100vh; /* altura completa */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título principal */
+.h1 {
+    font-size: 67px;
+    background: linear-gradient(to right, blue, red, yellow, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 100px;
+}
+
+/* Contenedor principal de las cajas */
+.contenedor-bloques {
+    display: flex;
+    gap: 50px; /* espacio entre bloques */
+    flex-wrap: wrap; /* se acomodan si la pantalla es pequeña */
+    justify-content: center;
+}
+
+/* Estilos generales para cada caja */
+.bloque {
+    padding: 10px;
+    text-align: center;
+    background: #03043f;
+    height: 88px;
+    min-width: 180px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para los enlaces dentro de los bloques */
+.bloque a {
+    font-size: 60px;
+    text-decoration: none; /* sin subrayado */
+    background: linear-gradient(to right, rgb(0, 97, 241), rgb(10, 240, 190));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
